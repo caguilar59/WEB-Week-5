@@ -375,4 +375,16 @@ input[type="submit"] {
     width:100%;
 }
 
+/*Activities*/
+.selectable {
+    cursor: pointer;
+}
 
+.highlighted {
+    background-color: #9ed034;
+}
+
+.not-selectable {
+    background-color: lightgray;
+    pointer-events: none;
+}
